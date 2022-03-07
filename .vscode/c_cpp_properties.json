@@ -1,0 +1,66 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/ron/Google Drive/Projects/FanSpeedController/include",
+                "/home/ron/Google Drive/Projects/FanSpeedController/src",
+                "/home/ron/.platformio/packages/framework-arduino-avr-attiny/cores/tiny",
+                "/home/ron/.platformio/packages/framework-arduino-avr-attiny/variants/tinyX5",
+                "/home/ron/.platformio/packages/framework-arduino-avr-attiny/libraries/ATTinyCore/src",
+                "/home/ron/.platformio/packages/framework-arduino-avr-attiny/libraries/EEPROM",
+                "/home/ron/.platformio/packages/framework-arduino-avr-attiny/libraries/SPI",
+                "/home/ron/.platformio/packages/framework-arduino-avr-attiny/libraries/Servo/src",
+                "/home/ron/.platformio/packages/framework-arduino-avr-attiny/libraries/Servo_ATTinyCore/src",
+                "/home/ron/.platformio/packages/framework-arduino-avr-attiny/libraries/SoftwareSerial",
+                "/home/ron/.platformio/packages/framework-arduino-avr-attiny/libraries/Wire/src",
+                "/home/ron/.platformio/packages/framework-arduino-avr-attiny/libraries/tinyNeoPixel",
+                "/home/ron/.platformio/packages/framework-arduino-avr-attiny/libraries/tinyNeoPixel_Static",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/ron/Google Drive/Projects/FanSpeedController/include",
+                    "/home/ron/Google Drive/Projects/FanSpeedController/src",
+                    "/home/ron/.platformio/packages/framework-arduino-avr-attiny/cores/tiny",
+                    "/home/ron/.platformio/packages/framework-arduino-avr-attiny/variants/tinyX5",
+                    "/home/ron/.platformio/packages/framework-arduino-avr-attiny/libraries/ATTinyCore/src",
+                    "/home/ron/.platformio/packages/framework-arduino-avr-attiny/libraries/EEPROM",
+                    "/home/ron/.platformio/packages/framework-arduino-avr-attiny/libraries/SPI",
+                    "/home/ron/.platformio/packages/framework-arduino-avr-attiny/libraries/Servo/src",
+                    "/home/ron/.platformio/packages/framework-arduino-avr-attiny/libraries/Servo_ATTinyCore/src",
+                    "/home/ron/.platformio/packages/framework-arduino-avr-attiny/libraries/SoftwareSerial",
+                    "/home/ron/.platformio/packages/framework-arduino-avr-attiny/libraries/Wire/src",
+                    "/home/ron/.platformio/packages/framework-arduino-avr-attiny/libraries/tinyNeoPixel",
+                    "/home/ron/.platformio/packages/framework-arduino-avr-attiny/libraries/tinyNeoPixel_Static",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50205",
+                "ARDUINO_AVR_ATTINYX5",
+                "NEOPIXELPORT=PORTB",
+                "CLOCK_SOURCE=6",
+                "F_CPU=8000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATtiny85__",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/home/ron/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=attiny85",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
