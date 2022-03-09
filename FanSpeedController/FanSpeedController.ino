@@ -1,7 +1,7 @@
 
 #define PWM25 64
 #define PWM50 128
-#define PWM75 182
+#define PWM75 175
 #define PWM100 255
 
 void setup() {
